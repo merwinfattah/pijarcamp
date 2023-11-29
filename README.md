@@ -1,5 +1,19 @@
 # pijarcamp app
-Aplikasi dibuat dengan menggunakan php, bootstrap, dan mysql. Terdapat sedikit perbedaan dengan deskripsi soal, schema tabel produk yang dibuat ditambahkan kolom id sebagai primary key.
+Aplikasi dibuat dengan menggunakan php, bootstrap, dan mysql. Terdapat sedikit perbedaan dengan deskripsi soal, schema tabel produk yang dibuat ditambahkan kolom id sebagai primary key sehingga info database ditampilkan sebagai berikut :
+``
+Host: "localhost"
+User: "root"
+Password: ''
+Database: "pijarcamp"
+Table: "produk"
+Kolom tabel "produk":
+- "id"
+- "nama_produk"
+- "keterangan"
+- "harga"
+- "jumlah"
+``
+
 
 # Halaman Utama (index.php)
 Halaman utama menampilkan produk yang ada di database serta tombol untuk ubah dan hapus produk
